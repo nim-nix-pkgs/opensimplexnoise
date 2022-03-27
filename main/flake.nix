@@ -11,6 +11,7 @@
   inputs.src-opensimplexnoise-main.ref   = "refs/heads/main";
   inputs.src-opensimplexnoise-main.owner = "betofloresbaca";
   inputs.src-opensimplexnoise-main.repo  = "nim-opensimplexnoise";
+  inputs.src-opensimplexnoise-main.dir   = "";
   inputs.src-opensimplexnoise-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
